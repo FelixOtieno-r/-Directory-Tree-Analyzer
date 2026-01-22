@@ -137,7 +137,7 @@ any_folder/
 
 ---
 
-## 📄 License
+## License
 Educational use – free to use, modify, and share.
 
 ---
