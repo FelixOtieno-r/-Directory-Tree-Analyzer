@@ -1,7 +1,7 @@
 # -Directory-Tree-Analyze
 A beginner-friendly Python tool that analyzes any folder on your computer and shows you what's inside!
 
-Features
+#Features
 Recursive scanning - Looks through folders and all their subfolders
 
 File & folder counts - Shows total number of files and folders
@@ -16,17 +16,17 @@ Error handling - Gracefully handles permission errors and empty folders
 
 Simple interface - Easy-to-use menu system
 
-Requirements
+#Requirements
 Python 3.6 or higher (usually comes pre-installed on Mac/Linux)
 
 No additional libraries needed - uses only Python's built-in modules
 
-Installation
+#Installation
 Download the program:
 
-bash
-# Copy the code from folder_analyzer.py
-# Save it to your computer
+
+Copy the code from folder_analyzer.py
+Save it to your computer
 Save as a Python file:
 
 Open any text editor (Notepad, VS Code, TextEdit, etc.)
@@ -35,28 +35,28 @@ Copy and paste the code
 
 Save as folder_analyzer.py
 
-How to Run
+#How to Run
 Windows:
 Open Command Prompt
 
 Navigate to the folder where you saved the file:
 
-cmd
+
 cd C:\Users\YourName\Desktop
 Run the program:
 
-cmd
+
 python folder_analyzer.py
 Mac/Linux:
 Open Terminal
 
 Navigate to the folder where you saved the file:
 
-bash
+
 cd ~/Desktop
 Run the program:
 
-bash
+
 python3 folder_analyzer.py
 How to Use
 When you run the program, you'll see a simple menu:
@@ -83,7 +83,6 @@ You Type	What It Does
 C:\Users\Name\Downloads	Analyzes Downloads (Windows)
 /	Analyzes the entire computer (be careful - this might take a while!)
  Sample Output
-
 ==================================================
   DIRECTORY ANALYSIS RESULTS
 ==================================================
@@ -127,13 +126,13 @@ User input - Creating interactive command-line programs
 
 Data formatting - Making output readable and user-friendly
 
- Troubleshooting
+ #Troubleshooting
 "Python is not recognized" error:
 Windows: Install Python from python.org
 
 Mac/Linux: Try python3 instead of python
 
-Permission errors:
+#Permission errors:
 Try analyzing a folder you own (like Documents or Downloads)
 
 The program will skip files it can't access and continue running
@@ -150,7 +149,7 @@ C:\\Users\\Name\\Desktop (double backslashes)
 
 C:/Users/Name/Desktop (forward slashes)
 
-  Project Ideas for Learning
+#Project Ideas for Learning
 Try modifying the program to add new features:
 
 Find duplicate files - Files with same name and size
@@ -163,19 +162,8 @@ Size thresholds - Find files larger than a certain size
 
 Export to CSV - Save results to a spreadsheet file
 
- File Structure
-
-folder_analyzer.py        # Main program file
-any_folder/              # Any folder you want to analyze
-    ├── documents/
-    │   ├── report.pdf
-    │   └── notes.txt
-    ├── images/
-    │   ├── photo1.jpg
-    │   └── photo2.png
-    └── code/
-        └── script.py
-  Contributing
+ 
+#Contributing
 Found a bug or have an idea? Feel free to:
 
 Modify the code for your needs
