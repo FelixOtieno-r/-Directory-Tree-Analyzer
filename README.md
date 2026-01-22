@@ -61,7 +61,7 @@ python3 folder_analyzer.py
 How to Use
 When you run the program, you'll see a simple menu:
 
-text
+
 ==================================================
   DIRECTORY TREE ANALYZER
 ==================================================
@@ -83,7 +83,7 @@ You Type	What It Does
 C:\Users\Name\Downloads	Analyzes Downloads (Windows)
 /	Analyzes the entire computer (be careful - this might take a while!)
  Sample Output
-text
+
 ==================================================
   DIRECTORY ANALYSIS RESULTS
 ==================================================
@@ -164,7 +164,7 @@ Size thresholds - Find files larger than a certain size
 Export to CSV - Save results to a spreadsheet file
 
  File Structure
-text
+
 folder_analyzer.py        # Main program file
 any_folder/              # Any folder you want to analyze
     ├── documents/
